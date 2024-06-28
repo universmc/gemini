@@ -120,7 +120,7 @@ stop: null,
     stream: false
 }).then((chatCompletion)=>{
     const mdContent = chatCompletion.choices[0]?.message?.content;
-    const outputFilePath = "gemini_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
+    const outputFilePath = "geminiCV_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
     fs.writeFileSync(outputFilePath, mdContent);
     console.log("Documentation du contructor généré et enregistré dans " + outputFilePath);
 });

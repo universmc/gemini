@@ -1,0 +1,39 @@
+{
+    "gpt-wallet": {
+    "userId": "Identifiant unique de l'utilisateur",
+    "password": "Mot de passe",
+    "personalInfo": {
+    "name": "Nom de l'utilisateur",
+    "nationality": "Nationalité",
+    "dateOfBirth": "Date de naissance"
+    },
+    "professionalInfo": {
+    "cv": {
+    "workExperience": ["Expérience professionnelle"],
+    "education": ["Éducation"],
+    "skills": ["Compétences"]
+    }
+    },
+    "documents": {
+    "RIB": "Informations du RIB",
+    "creditCard": {
+    "cardNumber": "Numéro de carte",
+    "expirationDate": "Date d'expiration",
+    "CVV": "CVV"
+    }
+    },
+    "crypto": {
+    "cryptoCurrency": {
+    "name": "Nom de la crypto-monnaie",
+    "symbol": "Symbole de la crypto-monnaie",
+    "balance": "Solde en crypto-monnaie"
+    },
+    "smartContract": {
+    "name": "Nom du Smart Contract",
+    "type": "Type de Smart Contract (ERC20, ERC721, etc.)",
+    "address": "Adresse du Smart Contract"
+    }
+    }
+    }
+    }
+    
