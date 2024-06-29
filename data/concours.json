@@ -1,0 +1,75 @@
+{
+    "projet": "Concours Google",
+    "duree": 44,
+    "unites": "jours",
+    "etapes": [
+      {
+        "nom": "Préparation et organisation",
+        "duree": 7,
+        "taches": [
+          "Définir les objectifs et les priorités du projet",
+          "Créer un plan de travail détaillé",
+          "Identifier les ressources nécessaires et les obtenir",
+          "Mettre en place un système de suivi des progrès",
+          "Commencer les recherches et la collecte de données"
+        ]
+      },
+      {
+        "nom": "Développement de l'application",
+        "duree": 7,
+        "taches": [
+          "Développer les fonctionnalités de base de l'application",
+          "Tester et corriger les bugs",
+          "Commencer à intégrer les modèles Gemini",
+          "Développer l'interface utilisateur"
+        ]
+      },
+      {
+        "nom": "Tests et raffinements",
+        "duree": 7,
+        "taches": [
+          "Effectuer des tests rigoureux de l'application",
+          "Recueillir les commentaires des utilisateurs",
+          "Affiner l'application en fonction des commentaires",
+          "Préparer la documentation de l'application"
+        ]
+      },
+      {
+        "nom": "Préparation de la présentation",
+        "duree": 7,
+        "taches": [
+          "Rédiger la présentation",
+          "Créer des supports visuels",
+          "Entraîner la présentation",
+          "Préparer les réponses aux questions"
+        ]
+      },
+      {
+        "nom": "Déploiement et promotion",
+        "duree": 7,
+        "taches": [
+          "Déployer l'application sur la plateforme de concours",
+          "Promouvoir l'application sur les réseaux sociaux et les forums en ligne",
+          "Répondre aux questions des utilisateurs et résoudre les problèmes"
+        ]
+      },
+      {
+        "nom": "Préparation finale",
+        "duree": 7,
+        "taches": [
+          "Réviser la présentation et les supports visuels",
+          "S'entraîner à répondre aux questions",
+          "Se reposer et se détendre !"
+        ]
+      },
+      {
+        "nom": "Concours",
+        "duree": 4,
+        "taches": [
+          "Présenter l'application au jury",
+          "Répondre aux questions du jury",
+          "Espérer le meilleur !"
+        ]
+      }
+    ]
+  }

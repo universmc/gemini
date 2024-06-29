@@ -4,9 +4,38 @@ const groq = new Groq();
 const node = require("./package.json")
 
 async function main() {
-  //
+const interface = 
+    console.log ("");
+    console.log (" ╔═══════════════════════════════════════╗       ╔═══════════════════════════════════════════════════════════════════════════╗");
+    console.log (" ╠════════════ ✨ Pi Console ════════════╣       ║  [💫] [✨] [🧘] [📚] [🌌] [💬] [∏] [💰] [🌴] [📱] [💻] [📡]<          >[🛰]║");
+    console.log (" ║                                       ║       ╠═══════════════════════════════════════════════════════════════════════════╣");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ║                                       ║       ║                                                                           ║");
+    console.log (" ╠═══════════════════════════════════════╣       ╠═══════════════════════════════════════════════════════════════════════════╣");
+    console.log (" ║(PS1)<                              /%>║       ║[PS2]:/<                                                                /%>║");
+    console.log (" ╚═══════════════════════════════════════╝       ╚═══════════════════════════════════════════════════════════════════════════╝");
+    console.log ("")
 
-  const chatCompletion = await groq.chat.completions.create({
+const chatCompletion = await groq.chat.completions.create({
     "messages": [
     //  {
     //    "role": "user",
@@ -109,8 +138,9 @@ async function main() {
 }
 }`},
 //{role: "system", content:"Phase 3: rédigez la Présentation detaillé du projet 'Allocations universelles basées sur le curriculum vitae numérique'. Gemini tu utiliseras une Approche métaphysique et professionnel pour présenter le projet"},
-{role: "system", content:"Phase 3: Configuration require(./package.json)"},
-//{role: "assistant",name:"[📔_codex]", content:""},
+{role: "system", content:"Phase 3: Configuration require(./package.json interface de response)"},
+{role: "assistant",name:"[📔_codex]", content:"groq'interface'"},
+{role: "user",name:"Mickael", content:"salut, salut comment vas tu ? je m'appel Mickael et toi ?'"},
 
 ],
 model: "gemma-7b-it",
@@ -126,5 +156,4 @@ stop: null,
     console.log("Documentation du contructor généré et enregistré dans " + outputFilePath);
 });
 }
-
 main();
