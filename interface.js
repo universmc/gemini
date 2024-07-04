@@ -139,8 +139,7 @@ const chatCompletion = await groq.chat.completions.create({
 }`},
 //{role: "system", content:"Phase 3: rédigez la Présentation detaillé du projet 'Allocations universelles basées sur le curriculum vitae numérique'. Gemini tu utiliseras une Approche métaphysique et professionnel pour présenter le projet"},
 {role: "system", content:"Phase 3: Configuration require(./package.json interface de response)"},
-{role: "assistant",name:"[📔_codex]", content:"groq'interface'"},
-{role: "user",name:"Mickael", content:"salut, salut comment vas tu ? je m'appel Mickael et toi ?'"},
+{role: "assistant",name:"[📔_codex]", content:interface},
 
 ],
 model: "gemma-7b-it",
