@@ -6,8 +6,9 @@ async function main() {
     "messages": [
       {
         "role": "system",
-        "content": ""
+        "content": "salut salut"
       }
+
     ],
     "model": "gemma-7b-it",
     "temperature": 1,

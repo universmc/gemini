@@ -140,7 +140,7 @@ async function main() {
               "action": "Effectuer des tests rigoureux (fonctionnels, ergonomiques, etc.) et itérer sur le design jusqu'à satisfaction totale des exigences initiales."
           }
       ],
-      "caracteristiques_resultat_optimal": "La solution finale doit être hautement interactive, intuitive, adaptable et centrée sur l'utilisateur, garantissant des performances optimales sur divers appareils et supportant pleinement les fonctionnalités additionnelles telles que l'intégration du wallet GPT et le respect de l'éthique et de la confidentialité des données."
+      "caracteristiques_resultat_optimal": "La solution finale doit être hautement interactive, intuitive, adaptable et centrée sur l'utilisateur, garantissant des performances optimales sur divers appareils et supportant pleinement les fonctionnalités additionnelles telles que l'intégration du wallet-GPT et le respect de l'éthique et de la confidentialité des données."
   }`},
     
 ],
