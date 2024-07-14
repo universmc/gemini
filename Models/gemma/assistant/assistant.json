@@ -2,7 +2,7 @@
     "messages": [
       {
         "role": "user",
-        "content": ""
+        "content": "insert template message et/ou response de chatgpt, Mickael role:system et PI role:assistant"
       }
     ],
     "model": "gemma-7b-it",
