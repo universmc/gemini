@@ -1,0 +1,77 @@
+/* Basic styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Hero section */
+.hero {
+    background-image: url("images/hero-background.jpg"); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features section */
+.features {
+    padding: 60px 0;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.feature {
+    text-align: center;
+}
+.color-titre {
+    color:red;
+}
+/* Call to action */
+.call-to-action {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}

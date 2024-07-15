@@ -110,20 +110,21 @@ async function main() {
 }`},
 {role: "system", content:"Phase 3: rédigez la Présentation detaillé du projet 'Allocations universelles basées sur le curriculum vitae numérique'. Gemini tu utiliseras une Approche métaphysique et professionnel pour présenter le projet"},
 {role: "assistant", content:"ta réponse doit être au format HTML une page web pour https://univers-mc.cloud bien stylé sur le domaine de la machine Learning de l'intelligence artificielle les couleurs doit être proche de celle de Gemini"},
+{role: "user", content:"groq -a index.html+style.css"},
 
 //{role: "assistant",name:"[📔_codex]", content:""},
 
 ],
-model: "gemma-7b-it",
-temperature: 0.6,
+model: "gemma2-9b-it",
+temperature: 0.5,
 max_tokens: 4096,
 top_p: 1,
 stop: null,
     stream: false
 }).then((chatCompletion)=>{
-    const mdContent = chatCompletion.choices[0]?.message?.content;
-    const outputFilePath = "geminiCV_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".md";
-    fs.writeFileSync(outputFilePath, mdContent);
+    const htmlContent = chatCompletion.choices[0]?.message?.content;
+    const outputFilePath = "geminiCV_" + new Date().toISOString().replace(/[-:TZ]/g, "") + ".html";
+    fs.writeFileSync(outputFilePath, htmlContent);
     console.log("Documentation du contructor généré et enregistré dans " + outputFilePath);
 });
 }
